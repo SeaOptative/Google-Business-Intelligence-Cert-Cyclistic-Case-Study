@@ -21,11 +21,11 @@ The Google Business Intelligence Certificate is a professional-level credential 
 ## 🤖 AI in Business Intelligence
 
 This course also delved into the application of AI and generative AI tools to optimize BI workflows. The course covered the following topics:
-	•	Driving business impact with AI in the workplace
-	•	Using AI to clean and prepare data
-	•	Building formulas and queries with AI assistance
-	•	Asking better analytical questions using AI
-	•	Creating more engaging, AI-powered data visualizations
+- Driving business impact with AI in the workplace
+- Using AI to clean and prepare data
+- Building formulas and queries with AI assistance
+- Asking better analytical questions using AI
+- Creating more engaging, AI-powered data visualizations
 
 
 
