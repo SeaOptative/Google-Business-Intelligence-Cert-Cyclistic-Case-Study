@@ -38,7 +38,7 @@ This course also delved into the application of AI and generative AI tools to op
 
 📬 Let’s Connect!
 
-Feel free to connect with me on LinkedIn or reach out if you’re interested in collaborating or discussing BI projects. Make sure to visit my repository where I discussed my work on the Google Data Analytics Certificate, a case study on Cyclistic, a fictional bike-share company in Chicago. Click [here](https://github.com/SeaOptative/Google-Data-Analytics-Cert-Cyclistic-Case-Study/tree/main).
+Feel free to connect with me on LinkedIn or reach out if you’re interested in collaborating or discussing BI projects. Make sure to visit my repository, where I discussed my work on the Google Data Analytics Certificate, a case study on Cyclistic, a fictional bike-share company in Chicago. Click [here](https://github.com/SeaOptative/Google-Data-Analytics-Cert-Cyclistic-Case-Study/tree/main).
 
 ## Certification of Completion
 ![Certificate of Completion 1](./cert.png)
