@@ -1,38 +1,66 @@
 # Project Requirements Document: Cyclistic
 
-Purpose: 
-Cyclistic's Customer Growth Team is developing a business plan for the upcoming year. The team wants to understand how their customers are using their bikes; their top priority is identifying customer demand at different station locations. The dataset includes millions of rides, so the team wants a dashboard that summarizes key insights. Business plans that are driven by customer insights are more successful than plans driven by just internal staff observations. The executive view must include key data points that are summarized and aggregated in order for the leadership team to get a clear vision of how customers are using Cyclistic.
-Key dependencies: 
-This project will require a dataset of customer data, so the Director of Customer Data will need to approve the request. Approval should also be given by the teams that own specific product data including bike trip duration and bike identification numbers to validate that the data is being interpreted correctly. The primary contacts are Adhira Patel, Megan Pirato, Rick Andersson, and Tessa Blackwell. 
-Stakeholder requirements: 
-In order to continuously improve and effectively market products, the dashboard must help Cyclistic decision-makers understand how their customers are using the bikes and the demand at different locations, including factors that might influence that demand at different times.  
-●	A table or map visualization exploring starting and ending station locations, aggregated by location. R
-●	A visualization showing which destination (ending) locations are popular based on the total trip minutes. R
-●	A visualization that focuses on trends from the summer of 2015. D
-●	A visualization showing the percent growth in the number of trips year over year. R
-●	Gather insights about congestion at stations. N
-●	Gather insights about the number of trips across all starting and ending locations. R
-●	Gather insights about peak usage by time of day, season, and the impact of weather. R
+Cyclistic’s Customer Growth Team is developing a business plan for the upcoming year. They want to understand customer bike usage and identify demand at different station locations. The dataset includes millions of rides, so they need a dashboard summarizing key insights. Customer-driven business plans are more successful than those based solely on internal observations. The executive view should include aggregated data points to help leadership understand customer usage on Cyclistic. 
 
-Success criteria: 
-Specific: BI insights must clearly identify the specific characteristics of a successful product. They must demonstrate how customers are currently using bikes and what impacts demand at station locations. Measurable: Each trip should be evaluated using starting and ending location, duration, variables such as time of day, season, and weather. For example, do customers use Cyclistic less when it rains? Or does bikeshare demand stay consistent? Does this vary by location and user types (subscribers vs. non-subscribers)? Action-oriented: These outcomes must prove or disprove the theory that location, time, season, and weather impact user demand. Then, the Cyclistic team will use this knowledge to refine future product development. Relevant: All metrics must support the primary question: How can we build a better Cyclistic experience? Time-bound: Analyze data that spans at least one year to see how seasonality affects usage. Exploring data that spans multiple months will capture peaks and valleys in usage. 
-User journeys: 
-The main purpose of Cyclistic is to provide customers with a better bike-share experience. A deeper dive into trip trends will help decision-makers explore how customers are currently using Cyclistic bikes and how that experience can be improved. 
-Assumptions: 
-The dataset includes latitude and longitude of stations but does not identify more geographic aggregation details like zip code, neighborhood name, or borough. The team will provide a separate database with this data. 
-The weather data provided does not include what time precipitation occurred; it’s possible that on some days, it precipitated during off-peak hours. However, for the purpose of this dashboard, you should assume any amount of precipitation that occurred on the day of the trip could have an impact.
-Starting bike trips at a location will be impossible if there are no bikes available at a station, so we might need to consider other factors for demand.
-Compliance and privacy: 
-The data must not include any personal data such as name, email address, phone number, or physical address. The user provides this data as part of their device activation but is not necessary for this project. It is paramount that the users be anonymized to avoid any bias. 
-Accessibility: 
-The dashboards should offer text alternatives including large print and text-to-speech.
-Roll-out plan: 
-The stakeholders have requested a completed BI tool in six weeks:
-●	Week 1: Dataset assigned. Initial design for fields and BikeIDs validated to fit the requirements.
-●	Weeks 2-3: SQL & ETL development
-●	Weeks 3-4: Finalize SQL. Dashboard design. 1st draft review with peers.
-●	Weeks 5-6: Dashboard development and testing
+Key Dependencies:
 
+This project requires customer data approval from the Director of Customer Data. Additionally, the product data teams, including bike trip durations and bike identification numbers, must approve to ensure accurate data interpretation.
 
+Primary Contacts:
 
+* Adhira Patel
+* Megan Pirato
+* Rick Andersson
+* Tessa Blackwell 
 
+Stakeholder requirements:
+
+The dashboard must help Cyclistic decision-makers understand customer bike usage and demand at different locations, considering factors that influence demand at different times, to continuously improve and effectively market products.
+ ● A table or map visualization showing starting and ending station locations aggregated by location. R
+● A visualization showing popular destination locations based on total trip minutes. R
+● A visualization focusing on summer 2015 trends. D
+● A visualization showing year-over-year trip growth. R
+● Gather insights about station congestion. N
+● Gather insights about total trips across locations. R
+● Gather insights about peak usage by time of day, season, and weather impact. R
+
+Success criteria:
+
+- Specific: BI insights must clearly identify product characteristics and customer bike usage, impacting demand at station locations.
+- Measurable: Each trip should be evaluated using starting and ending locations, duration, time of day, season, and weather.
+- Action-oriented: Outcomes must prove or disprove the impact of location, time, season, and weather on user demand, enabling Cyclistic to refine product development.
+- Relevant: Metrics must support the primary question: How can we build a better Cyclistic experience?
+- Time-bound: Analyze data spanning at least a year to see seasonality’s impact on usage, with multiple-month data capturing peak and valley trends. 
+
+User Journeys: Enhancing the Bike-Share Experience
+The primary objective of Cyclistic is to elevate the overall bike-share experience for its customers. An in-depth analysis of trip trends will empower decision-makers to gain insights into the current usage patterns of Cyclistic bikes and identify opportunities for enhancing the customer experience. 
+
+Assumptions: The dataset includes latitude and longitude of stations but does not provide additional geographic aggregation details such as zip codes, neighborhood names, or boroughs. The team will provide a separate database containing this information.
+
+The weather data provided does not specify the time of precipitation occurrence. It is possible that precipitation occurred during off-peak hours on certain days. However, for the purpose of this dashboard, it is reasonable to assume that any precipitation that occurred on the day of the trip could have an impact.
+
+Beginning bike trips at a location will be impossible if there are no available bikes at a station. Therefore, we may need to consider other factors for demand. 
+
+Compliance and Privacy: The dataset must not contain any personal information such as names, email addresses, phone numbers, or physical addresses. Users provide this data as part of their device activation, but it is not essential for the project’s functionality. Anonymization of users is crucial to prevent any potential biases.
+
+Accessibility: The dashboards should provide text alternatives, including large print and text-to-speech capabilities. 
+
+Roll-out Plan:
+
+Stakeholder Request:
+The stakeholders have requested a comprehensive Business Intelligence (BI) tool to be completed within six weeks.
+
+Week 1:
+- Dataset Assignment: The dataset will be assigned to the team.
+- Initial Design Validation: The initial design for the fields and BikeIDs will be validated to ensure alignment with the project requirements.
+
+Week 2-3:
+- SQL and ETL Development: The team will focus on developing SQL queries and ETL processes.
+
+Week 3-4:
+- Finalization of SQL: The SQL queries will be finalized.
+- Dashboard Design: The dashboard design will be completed.
+- First Draft Review with Peers: The dashboard will be reviewed and feedback will be provided by peers.
+
+Week 5-6:
+- Dashboard Development and Testing: The team will continue developing the dashboard and conducting thorough testing to
